@@ -2,15 +2,17 @@
 
 
 Console.WriteLine("Teste do nokia");
-Smartphone nokia = new Nokia(numero: "95877-8874", modelo: "A22", imei: "ABC2335424", memoria: 124);
+Smartphone nokia = new Nokia(numero: "92222-2222", modelo: "Acabo", imei: "000000000", memoria: 128);
 nokia.Ligar();
-nokia.InstalarAplicativo("facebook");
+nokia.ReceberLigacao();
+nokia.InstalarAplicativo("tiktok");
 
 
 Console.WriteLine("Teste do Iphone");
-Smartphone iphone = new Iphone(numero: "95622-6798", modelo: "8s", imei: "ADC1213412", memoria: 248);
+Smartphone iphone = new Iphone(numero: "91111-1111", modelo: "14", imei: "111111111", memoria: 128);
+iphone.Ligar();
 iphone.ReceberLigacao();
-iphone.InstalarAplicativo("twiter");
+iphone.InstalarAplicativo("stagram");
 
 
 // TODO: Realizar os testes com as classes Nokia e Iphone
